@@ -1,0 +1,39 @@
+const nomes =  ["Jorge","Rui","Anabela","Bruno"];
+const idades = [25,15,42,36];
+
+const alunos=[
+{nome:"Raquel", Numero: 10526, Curso: "Informatica", ano:1},
+{nome:"Carlos",Numero: 9558, Curso: "Electronica", ano:2},
+{nome:"Bruno",Numero: 15558, Curso: "Gestão", ano:3},
+{nome:"Rui",Numero: 8253, Curso: "Mecanica", ano:2},
+{nome:"Diana",Numero: 5337, Curso: "Biologia", ano:1},
+];
+
+//Sort
+//console.log(nomes.sort());
+//console.log(nomes.reverse());
+//console.log(idades.sort((a,b)=>a-b));
+
+
+// Sort
+//Ordenar por Numero
+//console.log(alunos.sort((a, b) => a.ano - b.ano));
+
+// Sort
+//Ordenar por Nome
+
+console.log(alunos.sort((a, b)=>{
+  let c = a.Curso.toLowerCase();
+  let d = b.Curso.toLowerCase();
+  if (c < d) {return -1;}
+  if (c > d) {return 1;}
+  return 0;
+}));
+
+/*
+Criar um array de idades e ordenar de forma descendente.
+
+Criar um array de Frutas e ordenar o mesmo.
+
+Criar uma array de objectos carros ({marca:"valor", modelo: "valor", ano: valor}) e ordenar o mesmo por ano descendente e posteriente por marca.
+*/

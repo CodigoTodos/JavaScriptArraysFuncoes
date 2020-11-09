@@ -1,0 +1,29 @@
+const nomes =  ["Rui","Jorge","Bruno","Anabela"];
+const idades = [15,25,36,42];
+
+const alunos=[
+{nome:"Bruno", Numero: 10526, Curso: "Informatica", ano:1},
+{nome:"Carlos",Numero: 9558, Curso: "Electronica", ano:2},
+{nome:"Raquel",Numero: 15558, Curso: "Gestão", ano:3},
+{nome:"Rui",Numero: 8253, Curso: "Mecanica", ano:2},
+{nome:"Diana",Numero: 5337, Curso: "Biologia", ano:1},
+];
+
+//Map
+//console.log(idades.map(a => a*3));
+//console.log(alunos.map(a => a.nome));
+
+//Filter
+//console.log(idades.filter(a => a>20&&a<40));
+//console.log(alunos.filter(a => a.ano == 1));
+//console.log(alunos.filterIndex(a => a.ano ==1));
+
+
+//Reduce
+console.log(idades.reduce((total,idade) => total + idade, 0));
+//const ageSum = ages.reduce((total, age) => total + age, 0);
+
+/*Exercicios
+ Utilizar map para calcular a raiz quadrada dos elementos do array
+ Utilizar filter para mostrar apenas os alunos com os numeros entre 7000 e 11000
+ Utilizar  reduce para multiplicar todos os elementos do array*/

@@ -1,0 +1,19 @@
+function Somar(a=2,b=1) {
+  console.log(a+b)
+}
+
+Somar(3,5)
+Somar(5)
+Somar()
+
+
+/*
+Exercicio Funções 2
+
+1 - Criar uma Função Para a multiplicação 3 Numeros
+sendo que os valores tem os seguintes argumentos pre definidos 10,2,5
+
+2 - Criar uma função que retorna o minimo de tres argumentos de entrada sendo os seus valores predefinidos 1,2,3
+
+
+*/

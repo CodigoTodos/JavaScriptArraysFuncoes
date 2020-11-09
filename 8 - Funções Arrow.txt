@@ -1,0 +1,30 @@
+/*Funções Arrow*/
+
+//let func = (arg1, arg2, ...argN) => expressão
+
+let dividir = (a,b) => a/b;
+
+let triplo = a => a*3;
+
+let cumprimentar = () => console.log("Ola");
+
+let encontrarMaximo = (a,b) =>{
+  if(a>b)
+    {
+      return a
+    }
+  else
+    {
+      return b
+    }
+};
+
+console.log(dividir(15,3)); 
+console.log(triplo(3)); 
+cumprimentar();
+console.log(encontrarMaximo(5,2))
+console.log(encontrarMaximo(15,20))
+
+/*
+Criar uma função arrow para mostrar o valor minimo dos 3 argumentos de entrada.
+*/

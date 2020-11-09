@@ -1,0 +1,23 @@
+/*Arguments */
+
+function CalcularMedia() {
+  var total = 0;
+  for (let i = 0; i < arguments.length; i++) {
+
+      total = total + arguments[i]
+
+  }
+  return total/arguments.length;
+}
+
+console.log(CalcularMedia(3,5,7))
+console.log(CalcularMedia(30,50,70,90))
+console.log(CalcularMedia(30,50,70,90,100,140))
+
+/*
+Exercicios Arguments 
+
+Fazer uma função que mostra os nomes e que utiliza arguments para mostrar todos os nomes
+passados para a função. 
+
+*/

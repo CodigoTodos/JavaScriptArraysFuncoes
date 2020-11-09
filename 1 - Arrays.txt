@@ -1,0 +1,35 @@
+let numeros = [10,20,30,40];
+
+//console.log(numeros.length);
+//console.log(numeros[0]);
+//console.log(numeros[2]);
+
+//numeros.unshift(100)//Insere no inicio do array
+//numeros.shift()//Remove no fim do array
+
+//numeros.push(100)//Insere no fim do array
+//numeros.pop()//Remove no fim do array
+
+/*
+Se possivel executar sempre operaçõe no final do array pois são mais rápidas
+*/
+
+//array.splice(indices, numeros elementos a ser eliminados, item1, ....., itemX)
+//numeros.splice(1,2);
+numeros.splice(2,0,200);
+
+for(let i=0; i<numeros.length;i++)
+{
+  console.log(numeros[i])
+}
+
+/*
+Exercicio Arrays
+
+1 - Criar array com 10 Marcas de Automoveis.
+2 - Mostrar o Array na consola.
+3 - Adicionar três novas marcas no final do array
+4 - Remover duas primeiras marcas do array
+5 - Adicionar 3 elementos na posição 4 do array
+6 - Eliminar 2 elementos na posição 7 do array 
+*/

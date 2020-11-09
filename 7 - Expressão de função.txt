@@ -1,0 +1,20 @@
+/*Expressão de função*/
+
+function multiplicar(x,y)
+{
+return x * y
+}
+
+
+let a = function (x, y) {return x * y};
+
+//let b = a(6, 4); 
+//console.log(b);
+
+
+/*
+criar uma expressão de função que retorna true se a soma dos dois parametros de 
+entrada for superior a 15. 
+
+*/
+

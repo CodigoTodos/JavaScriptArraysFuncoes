@@ -1,0 +1,38 @@
+const alunos=[
+{nome:"Bruno", Numero: 10526, Curso: "Informatica", ano:1},
+{nome:"Carlos",Numero: 9558, Curso: "Electronica", ano:2},
+{nome:"Raquel",Numero: 15558, Curso: "Gestão", ano:3},
+{nome:"Rui",Numero: 8253, Curso: "Mecanica", ano:2},
+{nome:"Diana",Numero: 5337, Curso: "Biologia", ano:1},
+];
+
+/*for(let i = 0; i <alunos.length; i++) {   
+console.log(alunos[i]);
+}*/
+
+// for in  
+/*for(let aluno in alunos) {   
+console.log(alunos[aluno]);
+}*/
+
+// for of
+/*for(let aluno of alunos) {   
+console.log(aluno);
+}*/
+
+// forEach
+
+
+/*alunos.forEach(function(alunos) {
+ console.log(alunos.nome);
+});*/
+
+/*
+Exercicios
+Criar um array com varios nomes
+
+Implementar uma função que mostre todos os nomes usando o for in
+Implementar uma função que mostre todos os nomes usando o for of
+Implementar uma função que mostre todos os nomes usando o forEach
+
+*/

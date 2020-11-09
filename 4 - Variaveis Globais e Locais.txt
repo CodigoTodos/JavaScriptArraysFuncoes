@@ -1,0 +1,25 @@
+/*
+Variavel local e Global 
+*/
+function mostrar() {
+  console.log(a) 
+  a=20    
+}
+
+let a = 10
+mostrar()
+console.log(a)
+
+/*
+Exercicios Variaveis Globais e Locais
+
+Criar um função que calcule a media de tres argumentos de entrada usando
+uma variavel local
+
+Criar um função que calcule a media de tres argumentos de entrada usando
+uma variavel global
+
+Sabes o que acontece se uma variavel local tiver o mesmo nome de uma variavel global? 
+Testa e ve o que acontece. Deixa nos comentários a tua resposta.  
+
+*/
